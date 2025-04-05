@@ -12,7 +12,7 @@ export default function Button({
     return (
         <Link
             href={ctaURL}
-            className={`${padding} rounded transition ${bgColor} ${textColor} dark:${darkBgColor} dark:${darkTextColor} hover:${bgColor}/50 text-sm font-[525]`}
+            className={`${padding} rounded-lg transition ${bgColor} ${textColor} dark:${darkBgColor} dark:${darkTextColor} hover:${bgColor}/50 text-sm font-[525]`}
         >
             {ctaCopy}
         </Link>
