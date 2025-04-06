@@ -51,7 +51,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="px-4 sm:px-6 lg:px-8 mx-auto max-w-[1440px] mt-8 sm:-mt-[20]">
+                <div className="px-4 sm:px-6 lg:px-8 mx-auto max-w-[1440px] mt-8 sm:-mt-[20px]">
                     <PartnerLogos />
                 </div>
             </main>
