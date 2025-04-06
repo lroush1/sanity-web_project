@@ -8,11 +8,12 @@ export default function Button({
                                    darkBgColor = "bg-[#F6F6F8]",
                                    darkTextColor = "text-[#13141B]",
                                     padding = "px-4 py-2",
+    borderRadius = "rounded-lg",
                                }) {
     return (
         <Link
             href={ctaURL}
-            className={`${padding} rounded-lg transition ${bgColor} ${textColor} dark:${darkBgColor} dark:${darkTextColor} hover:${bgColor || darkBgColor}/50 text-sm font-[525]`}
+            className={`${padding} ${borderRadius} leading-3 transition ${bgColor} ${textColor} dark:${darkBgColor} dark:${darkTextColor} hover:shadow-lg text-sm font-[525]`}
         >
             {ctaCopy}
         </Link>
