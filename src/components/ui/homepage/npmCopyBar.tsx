@@ -6,7 +6,7 @@ interface NpmCopyBarProps {
     packageName?: string;
 }
 
-export default function NpmCopyBar({ packageName = "npm package@latest" }: NpmCopyBarProps) {
+export default function NpmCopyBar({ packageName = "npm create sanity@latest" }: NpmCopyBarProps) {
     const [copied, setCopied] = useState(false);
 
     const handleCopy = async () => {
@@ -22,7 +22,7 @@ export default function NpmCopyBar({ packageName = "npm package@latest" }: NpmCo
     return (
         <div
             onClick={handleCopy}
-            className="rounded border border-zinc-200 px-4 py-3 cursor-pointer inline-flex items-center space-x-2"
+            className="rounded border border-zinc-200 dark:border-[#252837] px-4 py-3 cursor-pointer inline-flex items-center space-x-2"
         >
             <p className="font-[525] text-[15px] leading-[13px] tracking-normal text-center align-bottom">
                 {copied ? "Copied!" : packageName}
