@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Button({
                                    ctaURL = "/",
-                                   ctaCopy = "Click me",
+                                   ctaCopy = "Button",
                                    bgColor = "bg-[#0D0E12]",
                                    textColor = "text-[#F6F6F8]",
                                    darkBgColor = "bg-[#F6F6F8]",
