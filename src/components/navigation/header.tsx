@@ -25,7 +25,7 @@ export default function Header() {
             </div>
             <div className="flex gap-2 items-center">
                 <Link href="/"
-                      className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1] hover:text-white hover:bg-white/10 rounded-md transition">Log
+                      className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1] hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition">Log
                     in</Link>
                 <Button ctaURL="https://google.com" ctaCopy="Get Started" padding="p-3" borderRadius="rounded"
                         darkBgColor="bg-[#F6F6F8]" darkTextColor="text-[#13141B]"/>
