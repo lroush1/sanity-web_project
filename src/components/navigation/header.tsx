@@ -10,22 +10,27 @@ export default function Header() {
                 <Image src={'/sanity-monogram--red.svg'} alt="Sanity Logo" width={35} height={35} quality={100}/>
                 <nav className="flex items-center mx-4 hidden sm:block">
                     <Link
-                        className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1]  hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition"
+                        aria-label="Product"
+                        className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1]  hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-200"
                         href="/">Product</Link>
                     <Link
-                        className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1]  hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition"
+                        aria-label="Developer"
+                        className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1]  hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-200"
                         href="/">Developer</Link>
                     <Link
-                        className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1]  hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition"
+                        aria-label="Enterprise"
+                        className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1]  hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-200"
                         href="/">Enterprise</Link>
                     <Link
-                        className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1]  hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition"
+                        aria-label="Pricing"
+                        className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1]  hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-200"
                         href="/">Pricing</Link>
                 </nav>
             </div>
             <div className="flex gap-2 items-center">
                 <Link href="/"
-                      className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1] hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition">Log
+                      aria-label="Log in"
+                      className="p-3 text-sm font-[525] text-[#1B1D27] dark:text-[#EEEEF1] hover:bg-black/10 hover:dark:bg-white/10 rounded-md transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-200">Log
                     in</Link>
                 <Button ctaURL="https://google.com" ctaCopy="Get Started" padding="p-3" borderRadius="rounded"
                         darkBgColor="bg-[#F6F6F8]" darkTextColor="text-[#13141B]"/>

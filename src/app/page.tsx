@@ -13,7 +13,7 @@ export default function Home() {
                             <div className="z-10 relative pt-16 pb-4 sm:pb-16">
                                 <h1 className="text-5xl md:text-[72px] text-[#0D0E12] dark:text-[#f6f6f8] leading-[105%] tracking-tighter">The Content<br /> Operating
                                     System</h1>
-                                <p className="text-lg md:text-2xl font-[425] text-[#0D0E12] dark:text-[#f6f6f8] mt-4">A fully customizable all-code backend for content-driven websites and apps—their builders and creators.</p>
+                                <p className="text-lg md:text-2xl leading-[1.35] tracking-[-0.01em] font-[425] text-[#0D0E12] dark:text-[#f6f6f8] mt-4">A fully customizable all-code backend for content-driven websites and apps—their builders and creators.</p>
                                 <div className="mt-8 flex gap-4">
                                     <Button ctaURL="https://sanity.io" ctaCopy="Start Building" padding="py-4 px-6" />
                                     <Button ctaURL="https://sanity.io" ctaCopy="Book a Demo" bgColor="bg-white" textColor="text-[#1B1D27]" darkBgColor="bg-[#1B1D27]" darkTextColor="text-[#EEEEF1]" padding="py-4 px-6" />
@@ -26,7 +26,7 @@ export default function Home() {
                                 <div className="w-full block md:hidden">
                                     <Image
                                         src="/v4--light 1.png"
-                                        alt="Sanity Studio Mobile"
+                                        alt="A screenshot of the Sanity Studio within the Structure tool as various users collaborate to edit data."
                                         width={500}
                                         height={400}
                                         className="object-contain mx-auto"
@@ -41,7 +41,7 @@ export default function Home() {
                         <div className="h-full w-full flex items-center">
                             <Image
                                 src="/v4--light 1.png"
-                                alt="Sanity Studio"
+                                alt="A screenshot of the Sanity Studio within the Structure tool as various users collaborate to edit data."
                                 fill
                                 sizes="(max-width: 768px) 100vw, 50vw"
                                 className="object-contain"
